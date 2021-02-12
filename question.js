@@ -78,3 +78,63 @@ var question407 = ["<button class=button001 onclick=q4j().>True</button> <button
 var question408 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
 var question409 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
 var question410 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
+
+var page = 0; //page number
+
+
+var e = 0; //extrovert
+e++;
+var i = 0; //introvert
+i++;
+var s = 0; //sensing
+s++;
+var n = 0; //intuitive
+n++;
+var t = 0; //thinking
+t++;
+var f = 0; //feeling
+f++;
+var p = 0; //perceiving
+p++;
+var j = 0; //judging
+j++;
+
+function q1e(){
+    e = e + 10;
+}
+function q1i(){
+    i = i + 10;
+}
+function q2s(){
+    s = s + 10;
+}
+function q2n(){
+    n = n + 10;
+}
+function q3t(){
+    t = t + 10;
+}
+function q3f(){
+    f = f + 10;
+}
+function q4p(){
+    p = p + 10;
+}
+function q4j(){
+    j = j + 10;
+}
+
+function next(){
+    if (page == "2"){
+        window.location.href = "second-page.html"
+        //go to next page
+    }
+    else if (page == "3"){
+        window.location.href = "third-page.html"
+        //go to next page
+    } 
+    else if (page = "4"){
+        window.location.href = "fourth-page.html"
+        //go to last page
+    }
+}
