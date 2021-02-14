@@ -87,7 +87,7 @@ $(document).ready(function(){
     var question409 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
     var question410 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
 
-    var page = 0; //page number
+    var page = 1; //page number
 
 
     var e = 0; //extrovert
@@ -132,18 +132,103 @@ $(document).ready(function(){
         j = j + 10;
     }
 
+    function begin(){
+        disappear.innerHTML = "";
+        question1.innerHTML = question100[0];
+        answer1.innerHTML = question101;
+        question2.innerHTML = question100[1];
+        answer2.innerHTML = question102;
+        question3.innerHTML = question100[2];
+        answer3.innerHTML = question103;
+        question4.innerHTML = question100[3];
+        answer4.innerHTML = question104;
+        question5.innerHTML = question100[4];
+        answer5.innerHTML = question105;
+        question6.innerHTML = question100[5];
+        answer6.innerHTML = question106;
+        question7.innerHTML = question100[6];
+        answer7.innerHTML = question107;
+        question8.innerHTML = question100[7];
+        answer8.innerHTML = question108;
+        question9.innerHTML = question100[8];
+        answer9.innerHTML = question109;
+        question10.innerHTML = question100[9];
+        answer10.innerHTML = question110;
+        page = page + 1;
+        //console.log(page);
+    }
     function next(){
         if (page == "2"){
-            window.location.href = "second-page.html"
-            //go to next page
+            question1.innerHTML = question200[0];
+            answer1.innerHTML = question201;
+            question2.innerHTML = question200[1];
+            answer2.innerHTML = question202;
+            question3.innerHTML = question200[2];
+            answer3.innerHTML = question203;
+            question4.innerHTML = question200[3];
+            answer4.innerHTML = question204;
+            question5.innerHTML = question200[4];
+            answer5.innerHTML = question205;
+            question6.innerHTML = question200[5];
+            answer6.innerHTML = question206;
+            question7.innerHTML = question200[6];
+            answer7.innerHTML = question207;
+            question8.innerHTML = question200[7];
+            answer8.innerHTML = question208;
+            question9.innerHTML = question200[8];
+            answer9.innerHTML = question209;
+            question10.innerHTML = question200[9];
+            answer10.innerHTML = question210;
+            page = page + 1;
+            //console.log(page);
         }
         else if (page == "3"){
-            window.location.href = "third-page.html"
-            //go to next page
+            question1.innerHTML = question300[0];
+            answer1.innerHTML = question301;
+            question2.innerHTML = question300[1];
+            answer2.innerHTML = question302;
+            question3.innerHTML = question300[2];
+            answer3.innerHTML = question303;
+            question4.innerHTML = question300[3];
+            answer4.innerHTML = question304;
+            question5.innerHTML = question300[4];
+            answer5.innerHTML = question305;
+            question6.innerHTML = question300[5];
+            answer6.innerHTML = question306;
+            question7.innerHTML = question300[6];
+            answer7.innerHTML = question307;
+            question8.innerHTML = question300[7];
+            answer8.innerHTML = question308;
+            question9.innerHTML = question300[8];
+            answer9.innerHTML = question309;
+            question10.innerHTML = question300[9];
+            answer10.innerHTML = question310;
+            page = page + 1;
+            //console.log(page);
         } 
         else if (page = "4"){
-            window.location.href = "fourth-page.html"
-            //go to last page
+            question1.innerHTML = question400[0];
+            answer1.innerHTML = question401;
+            question2.innerHTML = question400[1];
+            answer2.innerHTML = question402;
+            question3.innerHTML = question400[2];
+            answer3.innerHTML = question403;
+            question4.innerHTML = question400[3];
+            answer4.innerHTML = question404;
+            question5.innerHTML = question400[4];
+            answer5.innerHTML = question405;
+            question6.innerHTML = question400[5];
+            answer6.innerHTML = question406;
+            question7.innerHTML = question400[6];
+            answer7.innerHTML = question407;
+            question8.innerHTML = question400[7];
+            answer8.innerHTML = question408;
+            question9.innerHTML = question400[8];
+            answer9.innerHTML = question409;
+            question10.innerHTML = question400[9];
+            answer10.innerHTML = question410;
+            page = page + 1;
+            //console.log(page);
         }
     }
 })
