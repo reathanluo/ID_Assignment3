@@ -18,30 +18,30 @@ $(document).ready(function(){
                         "In your social circle, you are often the one who contacts your friends and initiates activities",
                         "You tend to think before speaking or acting"];
                 
-    var question101 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question102 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question103 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question104 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question105 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question106 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question107 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question108 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question109 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
-    var question110 = ["<button class=button001 onclick=q1e().>True</button> <button class=button001 onclick=q1i().>False</button> "];
+    var question101 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question102 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question103 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question104 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question105 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question106 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question107 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question108 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question109 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
+    var question110 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
 
 
     var question200 = [];
                 
-    var question201 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question202 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question203 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question204 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question205 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question206 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question207 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question208 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question209 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
-    var question210 = ["<button class=button001 onclick=q2s().>True</button> <button class=button001 onclick=q2n().>False</button> "];
+    var question201 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question202 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question203 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question204 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question205 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question206 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question207 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question208 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question209 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
+    var question210 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
 
     var question300 = ["Seeing other people cry can easily make you feel like you want to cry too", 
                         "Concrete facts and details, not theories and ideas, are what stick in your memory", 
@@ -54,16 +54,16 @@ $(document).ready(function(){
                         "Would you directly tell your close friends that their fashion is terrible",
                         "Do you usually think about the future and the possibilities"];
                 
-    var question301 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question302 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question303 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question304 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question305 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question306 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question307 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question308 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question309 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
-    var question310 = ["<button class=button001 onclick=q3f().>True</button> <button class=button001 onclick=q3t().>False</button> "];
+    var question301 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question302 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question303 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question304 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question305 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question306 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question307 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question308 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question309 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
+    var question310 = ["<button class=button001 onclick=q3f()>True</button> <button class=button001 onclick=q3t()>False</button> "];
 
     var question400 = ["You always do your best to prepare for potential obstacles in advance", 
                         "There are usually certain, specific ways you like to do things", 
@@ -76,18 +76,19 @@ $(document).ready(function(){
                         "Does your itenary usually seem like a rough list of idea than specific details",
                         "Is your desk organized most of the time"];
                 
-    var question401 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question402 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question403 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question404 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question405 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question406 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question407 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question408 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question409 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
-    var question410 = ["<button class=button001 onclick=q4j().>True</button> <button class=button001 onclick=q4p().>False</button> "];
+    var question401 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question402 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question403 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question404 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question405 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question406 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question407 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question408 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question409 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
+    var question410 = ["<button class=button001 onclick=q4j()>True</button> <button class=button001 onclick=q4p()>False</button> "];
 
     var page = 1; //page number
+    var x = document.getElementById("nextbutton");
 
 
     var e = 0; //extrovert
@@ -154,6 +155,7 @@ $(document).ready(function(){
         answer9.innerHTML = question109;
         question10.innerHTML = question100[9];
         answer10.innerHTML = question110;
+        x.style.display = "block";
         page = page + 1;
         //console.log(page);
     }
