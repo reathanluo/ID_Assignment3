@@ -1,7 +1,9 @@
+console.log("first part");
+
 $(document).ready(function(){
 
     const APIKEY = "60268a935ad3610fb5bb5f6e"
-
+    console.log("after api");
 
 
 
@@ -89,24 +91,19 @@ $(document).ready(function(){
 
     var page = 1; //page number
     var x = document.getElementById("nextbutton");
-
+    var y = document.getElementsByClassName("button001");
+    var z = document.getElementById("submitbutton");
+    var colortrue = 'rgb(118, 219, 118)';
+    var colorfalse = 'rgb(243, 124, 124)';
 
     var e = 0; //extrovert
-    e++;
     var i = 0; //introvert
-    i++;
     var s = 0; //sensing
-    s++;
     var n = 0; //intuitive
-    n++;
     var t = 0; //thinking
-    t++;
     var f = 0; //feeling
-    f++;
     var p = 0; //perceiving
-    p++;
     var j = 0; //judging
-    j++;
 
     function q1e(){
         e = e + 10;
@@ -229,8 +226,16 @@ $(document).ready(function(){
             answer9.innerHTML = question409;
             question10.innerHTML = question400[9];
             answer10.innerHTML = question410;
+            x.style.display = "none";
+            z.style.display = "block";
             page = page + 1;
             //console.log(page);
         }
     }
+    function submit(){
+        window.location.href = "member.html";
+    }
+    document.getElementById("button").addEventListener("click", begin);
+    document.getElementById("nextbutton").addEventListener("click", next);
+    document.getElementById("submitbutton").addEventListener("click", submit);
 })
