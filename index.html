@@ -12,46 +12,35 @@
   </head>
 
   <body>
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h2 class="text-white">About</h2>
-              <p class="text-muted">This website is created by LuoYuXuan and Natalie Long Hui Ying as a tool to assess human personality.
-                <br><br>Personality testing and assessment refer to techniques designed to measure the characteristic patterns of traits that people exhibit across various situations. 
-                <br><br>Personality tests can be used to help clarify a clinical diagnosis, guide therapeutic interventions, and help predict how people may respond in different situations.<br>
-                <br><br>When we talk about ourselves and others, we frequently refer to different characteristics of an individual's personality. Psychologists do much the same thing when they assess personality but on a more systematic and scientific level.
-              </p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h2 class="text-white"><em>Menu</em></h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Home</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a href="subwebs/quiz.html" class="text-white">Quiz</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a href="subwebs/personality.html" class="text-white">Personality</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a href="subwebs/member.html" class="text-white">Member</a></li>
-                <div class="dropdown-divider"></div>
-              </ul>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand" href="index.html"><img src="images/think.png" alt="think" width="25" height="25"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subwebs/quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subwebs/personality.html">Personality</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subwebs/login.html">Member</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Login</a>
+            </li>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src="images/think.png" alt="think" width="20" height="20">
-            <strong>Home</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+    </nav>
 
     <main role="main">
       <div class="jumbotron">
@@ -85,7 +74,7 @@
             <img src="images/member.png" alt="Member" width="140" height="140">
             <h2>Member</h2>
             <p></p>
-            <p><a class="btn btn-secondary" href="subwebs/member.html" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="subwebs/login.html" role="button">View details »</a></p>
           </div>
 
         </div>
@@ -93,7 +82,7 @@
     <footer class="container">
       <hr>
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>© 2021 LuoYuXuan </p>
+      <p>© 2021 LuoYuXuan & Natalie Long </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
