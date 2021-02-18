@@ -59,3 +59,20 @@
     border-style: solid;
 
 } */
+
+
+#name{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+#content{
+    display: none;
+    color: #3bf8a9;
+    padding: 14px;
+    border-style: solid;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
