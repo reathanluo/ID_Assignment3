@@ -10,7 +10,7 @@ Personality tests can be used to help clarify a clinical diagnosis, guide therap
 they assess personality but on a more systematic and scientific level.
                         
 
-# github link
+# Github link
 https://github.com/reathanluo/ID_Assignment3
 <!-- Design Process -->
 
@@ -67,15 +67,17 @@ https://github.com/reathanluo/ID_Assignment3
 # Features
 <!-- Existing Features-->
 
+## Outline
 We have a personality test that consists of 40 questions to determine your 4 letter personality. The first 10 questions determine whether you are an extrovert or an introvert. The next 10 questions determine whether you are an intuitive or sensing person. The next 10 questions determine whether you are a thinking or feeling person. The last 10 questions determine whether you are an perceiving or judging person.
 
-<!-- Features Left to Implement -->
+Besides that,we have the 16 individual results for the user to better understand themselves.
 
+## Features Left to Implement
+Allow a range of options to choose instead of only true and false
+Add colours and validation for the options
 
 <!-- Another feature idea -->
 
-Allow a range of options to choose instead of only true and false
-Add colours and validation for the options
 
 # Credits
 * Icons: https://www.iconfont.cn/
