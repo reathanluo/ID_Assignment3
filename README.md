@@ -12,7 +12,9 @@ they assess personality but on a more systematic and scientific level.
 
 # Github link
 https://github.com/reathanluo/ID_Assignment3
-<!-- Design Process -->
+
+# Design Process
+We retrieve ideas from https://www.16personalities.com/ and make a outline of what are we going to do. Such as the basic quizes and the marks system. And we use bootstrap to implement the wireframe.
 
 # Framework Used
 * Bootstrap style sheet
@@ -65,7 +67,6 @@ https://github.com/reathanluo/ID_Assignment3
   * each
 
 # Features
-<!-- Existing Features-->
 
 ## Outline
 We have a personality test that consists of 40 questions to determine your 4 letter personality. The first 10 questions determine whether you are an extrovert or an introvert. The next 10 questions determine whether you are an intuitive or sensing person. The next 10 questions determine whether you are a thinking or feeling person. The last 10 questions determine whether you are an perceiving or judging person.
@@ -75,8 +76,6 @@ Besides that,we have the 16 individual results for the user to better understand
 ## Features Left to Implement
 Allow a range of options to choose instead of only true and false
 Add colours and validation for the options
-
-<!-- Another feature idea -->
 
 # Testing
 * The login was tested and it works properly.
