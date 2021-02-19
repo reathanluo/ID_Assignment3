@@ -2,12 +2,7 @@ console.log("first part");
 
 $(document).ready(function(){
 
-    const APIKEY = "60268a935ad3610fb5bb5f6e"
     console.log("after api");
-
-
-
-
 
     var question100 = ["You make friends easily", 
                         "At social events, you rarely meet new people and mostly talk to the ones you already know", 
@@ -93,6 +88,8 @@ $(document).ready(function(){
     var x = document.getElementById("nextbutton");
     var y = document.getElementsByClassName("button001");
     var z = document.getElementById("submitbutton");
+    var content = document.getElementById("content");
+    var results = document.getElementById("name");
     var colortrue = 'rgb(118, 219, 118)';
     var colorfalse = 'rgb(243, 124, 124)';
 
@@ -232,8 +229,132 @@ $(document).ready(function(){
             //console.log(page);
         }
     }
+    e=60;
+    s=60;
+    t=60;
+    p=60;
+
+        
+   
     function submit(){
-        window.location.href = "member.html";
+        if (e>=50){
+            if(s>=50){
+                if(t>=50){
+                    if(p>=50){
+                        document.getElementById("estp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Entrepreneur";
+                        document.getElementById("particularcode").innerHTML = "ESTP";
+                    }
+                    else if(j>50){
+                        document.getElementById("estj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Exective";
+                        document.getElementById("particularcode").innerHTML = "ESTJ";
+                    }
+                }
+                else if(f>50){
+                    if(p>=50){
+                        document.getElementById("esfp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Entertainer";
+                        document.getElementById("particularcode").innerHTML = "ESFP";
+                    }
+                    else if(j>50){
+                        document.getElementById("esfj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Consul";
+                        document.getElementById("particularcode").innerHTML = "ESFJ";
+                    }
+                }
+    
+            }
+            else if(n>50){
+                if(t>=50){
+                    if(p>=50){
+                        document.getElementById("entp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Debator";
+                        document.getElementById("particularcode").innerHTML = "ENTP";
+                    }
+                    else if(j>50){
+                        document.getElementById("entj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Commander";
+                        document.getElementById("particularcode").innerHTML = "ENTJ";
+                    }
+                }
+                else if(f>50){
+                    if(p>=50){
+                        document.getElementById("enfp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Campaigner";
+                        document.getElementById("particularcode").innerHTML = "ENFP";
+                    }
+                    else if(j>50){
+                        document.getElementById("enfj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Protagonist";
+                        document.getElementById("particularcode").innerHTML = "ENFJ";
+                    }
+                }
+            }
+        }
+        else if(i>50){
+            if(s>=50){
+                if(t>=50){
+                    if(p>=50){
+                        document.getElementById("istp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Virtuoso";
+                        document.getElementById("particularcode").innerHTML = "ISTP";
+                    }
+                    else if(j>50){
+                        document.getElementById("istj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Logistician";
+                        document.getElementById("particularcode").innerHTML = "ISTJ";
+                    }
+                }
+                else if(f>50){
+                    if(p>=50){
+                        document.getElementById("isfp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Adventurer";
+                        document.getElementById("particularcode").innerHTML = "ISFP";
+                    }
+                    else if(j>50){
+                        document.getElementById("isfj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Defender";
+                        document.getElementById("particularcode").innerHTML = "ISFJ";
+                    }
+                }
+    
+            }
+            else if(n>50){
+                if(t>=50){
+                    if(p>=50){
+                        document.getElementById("intp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Logician";
+                        document.getElementById("particularcode").innerHTML = "INTP";
+                    }
+                    else if(j>50){
+                        document.getElementById("intj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Architect";
+                        document.getElementById("particularcode").innerHTML = "INTJ";
+                    }
+                }
+                else if(f>50){
+                    if(p>=50){
+                        document.getElementById("infp-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Mediator";
+                        document.getElementById("particularcode").innerHTML = "INFP";
+                    }
+                    else if(j>50){
+                        document.getElementById("infj-pic").style.display = "block";
+                        document.getElementById("particulartype").innerHTML = "Advocate";
+                        document.getElementById("particularcode").innerHTML = "INFJ";
+                    }
+                }
+            }
+        }
+        content.style.display = "none";
+        results.style.display = "block";
+        // console.log(e);
+        // console.log(s);
+        // console.log(t);
+        // console.log(p);
+        // window.location.href = "member.html";
+
     }
     document.getElementById("button").addEventListener("click", begin);
     document.getElementById("nextbutton").addEventListener("click", next);

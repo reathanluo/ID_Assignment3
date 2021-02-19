@@ -2,7 +2,7 @@
 document.getElementById("namebutton").addEventListener("click", display);
 var displayname = document.getElementById("particularname");
 var namebox = document.getElementById("name");
-var contentbox = document.getElementById("content");
+var contentbox = document.getElementById("results");
 
 function display(){
     var name = document.getElementById("username").value;
