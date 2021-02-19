@@ -5,15 +5,15 @@ $(document).ready(function(){
     console.log("after api");
 
     var question100 = ["You make friends easily", 
-                        "At social events, you rarely meet new people and mostly talk to the ones you already know", 
-                        "You feel comfortable just walking up to someone you find interesting and striking up a conversation", 
+                        "You often spend time exploring unrealistic yet intriguing ideas.", 
+                        "Your travel plans are more likely to look like a rough list of ideas than a detailed itinerary.", 
                         "You enjoy participating in group activities",
-                        "Frequent alone time is a necessity for you",
-                        "You usually prefer to be around others rather than on your own",
-                        "After a long and exhausting week, a lively social event is just what you need",
-                        "You can spend entire weekends all by yourself without feeling bored",
-                        "In your social circle, you are often the one who contacts your friends and initiates activities",
-                        "You tend to think before speaking or acting"];
+                        "You often think about what you should have said in a conversation long after it has taken place.",
+                        "If your friend is sad about something, your first instinct is to support them emotionally, not try to solve their problem.",
+                        "People can rarely upset you.",
+                        "You rarely worry if you made a good impression on someone you met.",
+                        "If you have to temporarily put your plans on hold, you make sure it is your top priority to get back on track as soon as possible.",
+                        "You often rely on other people to be the ones to start a conversation and keep it going."];
                 
     var question101 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
     var question102 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
@@ -27,7 +27,16 @@ $(document).ready(function(){
     var question110 = ["<button class=button001 onclick=q1e()>True</button> <button class=button001 onclick=q1i()>False</button> "];
 
 
-    var question200 = [];
+    var question200 = ["You enjoy vibrant social events with lots of people.", 
+                        "At social events, you rarely meet new people and mostly talk to the ones you already know", 
+                        "You feel comfortable just walking up to someone you find interesting and striking up a conversation", 
+                        "You enjoy participating in group activities",
+                        "Frequent alone time is a necessity for you",
+                        "You usually prefer to be around others rather than on your own",
+                        "After a long and exhausting week, a lively social event is just what you need",
+                        "You can spend entire weekends all by yourself without feeling bored",
+                        "In your social circle, you are often the one who contacts your friends and initiates activities",
+                        "You tend to think before speaking or acting"];
                 
     var question201 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
     var question202 = ["<button class=button001 onclick=q2s()>True</button> <button class=button001 onclick=q2n()>False</button> "];
