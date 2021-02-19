@@ -78,12 +78,20 @@ Add colours and validation for the options
 
 <!-- Another feature idea -->
 
+# Testing
+* The login was tested and it works properly.
+* Responsive web design applied, working well on phones and different browers on desktop.
 
 # Credits
-* Icons: https://www.iconfont.cn/
-* Source of content: https://www.16personalities.com/
 
-<!-- Acknowledgements -->
+## Icons
+* https://www.iconfont.cn/
+* https://www.16personalities.com/
+
+## Source of content
+* https://www.16personalities.com/
+## Acknowledgements
+* YuXuan received the idea from the YouTuber "CodingNepal" for making the login page
 
 # Sensing or Intuitive (7)
 
