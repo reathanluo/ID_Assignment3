@@ -5,10 +5,10 @@
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-auth.js"></script>
-        <script src="login.js"></script>
+        <script src="Signup.js"></script>
     </head>
     <body>
-        <h1> Form </h1>
+        <!-- <h1> Form </h1>
         <div id="FormContainer">
             <div id="header"></div>
             <input type="email" placeholder="email" id="email"/>
@@ -16,8 +16,38 @@
 
             <button onclick="signUp()" id="signUp"> Sign Up </button>
             <button onclick="signIn()" id="signIn"> Sign In </button>
-            <button onclick="signOut()" id="signOut"> Sign Out </button>
-        </div>
+        </div> -->
+        <div class="form">
+            <div class="tab-header">
+              <div class="active">Sign Up</div>
+              <div>Sign In</div>
+            </div>
+            <div class="tab-content">
+              <div class="tab-body active">
+                <div class="form-element">
+                  <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="form-element">
+                  <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="form-element">
+                    <button onclick="signUp()" id="signUp"> Sign Up </button>
+                </div>
+              </div>
+              
+              <div class="tab-body">
+                <div class="form-element">
+                  <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="form-element">
+                  <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="form-element">
+                    <button onclick="signIn()" id="signIn"> Sign In </button>
+                </div>
+              </div>
+            </div>
+          </div>
 
     </body>
 </html>
