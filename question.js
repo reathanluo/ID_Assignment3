@@ -238,6 +238,7 @@ $(document).ready(function(){
             //console.log(page);
         }
     }
+    // hardcode
     e=60;
     s=60;
     t=60;
